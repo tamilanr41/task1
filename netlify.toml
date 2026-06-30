@@ -1,6 +1,5 @@
 [build]
-  command = "npm install --legacy-peer-deps && npx prisma generate && npm run build"
-  publish = ".next"
+  command = "npx prisma generate && npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
