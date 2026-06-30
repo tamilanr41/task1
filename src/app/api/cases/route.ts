@@ -3,6 +3,8 @@ import prisma from '@/lib/db';
 import { getAuthUser, unauthorized } from '@/lib/auth';
 import { generateCaseNumber } from '@/lib/utils';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(req: NextRequest) {
   const payload = await getAuthUser(req);
   if (!payload) return unauthorized();
