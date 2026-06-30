@@ -1,0 +1,68 @@
+
+> legalfirm-platform@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.8s (1363 modules)
+ GET /_next/static/css/app/layout.css 404 in 7141ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1095ms (1519 modules)
+ GET / 200 in 1434ms
+ GET / 200 in 431ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 92ms
+ ✓ Compiled in 1096ms (1492 modules)
+ GET / 500 in 408ms
+ ✓ Compiled in 828ms (1522 modules)
+ GET / 200 in 789ms
+ ✓ Compiled in 491ms (760 modules)
+ ✓ Compiled in 775ms (760 modules)
+ ✓ Compiled in 1303ms (1512 modules)
+ GET / 500 in 422ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 671ms (1501 modules)
+ GET /_next/static/chunks/main-app.js 404 in 935ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 885ms
+ ✓ Compiled in 1095ms (1525 modules)
+ ✓ Compiled in 931ms (1525 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 326ms
+ GET / 200 in 236ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 3.2s (1557 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4.2s (1784 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 4199ms
+ ○ Compiling /practice-areas/[slug] ...
+ ✓ Compiled /practice-areas/[slug] in 4.3s (1820 modules)
+ ✓ Compiled in 707ms (980 modules)
+ ✓ Compiled in 877ms (1772 modules)
+ ✓ Compiled in 855ms (1776 modules)
+ ✓ Compiled in 333ms (977 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1482ms (1779 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1726ms (1767 modules)
+ GET / 500 in 3386ms
+ GET /_next/static/chunks/fallback/webpack.js 500 in 81ms
+ GET /_next/static/chunks/fallback/main.js 500 in 78ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 74ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 70ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 68ms
+ GET / 500 in 65ms
+ GET /_next/static/chunks/fallback/webpack.js 500 in 58ms
+ GET /_next/static/chunks/fallback/main.js 500 in 57ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 57ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 56ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 54ms
+ GET / 500 in 94ms
+ GET /_next/static/chunks/fallback/webpack.js 500 in 93ms
+ GET /_next/static/chunks/fallback/main.js 500 in 77ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 73ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 72ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 70ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 18ms

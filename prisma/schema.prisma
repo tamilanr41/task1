@@ -1,0 +1,472 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  passwordHash  String
+  name          String
+  phone         String?
+  avatar        String?
+  role          String    @default("CLIENT")
+  isActive      Boolean   @default(true)
+  twoFactorAuth Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  client        Client?
+  lawyer        Lawyer?
+  staff         Staff?
+  messages      Message[]  @relation("sender")
+  receivedMsgs  Message[]  @relation("receiver")
+  notifications Notification[]
+  sessions      Session[]
+  auditLogs     AuditLog[]
+}
+
+model Session {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String   @unique
+  device    String?
+  ip        String?
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+model Client {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dateOfBirth    DateTime?
+  address        String?
+  city           String?
+  state          String?
+  zipCode        String?
+  country        String?
+  emergencyName  String?
+  emergencyPhone String?
+  preferredLang  String   @default("en")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  cases          Case[]
+  invoices       Invoice[]
+  payments       Payment[]
+  appointments   Appointment[]
+  reviews        Review[]
+  documents      Document[]
+  favorites      LawyerFavorite[]
+  referrals      Referral[]
+  feedbacks      Feedback[]
+}
+
+model Lawyer {
+  id               String   @id @default(uuid())
+  userId           String   @unique
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  barNumber        String?
+  experience       Int      @default(0)
+  bio              String?
+  consultationFee  Float    @default(0)
+  availability     String   @default("{}")
+  languages        String   @default("[]")
+  courtMemberships String   @default("[]")
+  certifications   String   @default("[]")
+  education        String   @default("[]")
+  isVerified       Boolean  @default(false)
+  rating           Float    @default(0)
+  reviewCount      Int      @default(0)
+  practiceAreas    String   @default("[]")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  cases            Case[]
+  appointments     Appointment[]
+  reviews          Review[]
+  timeEntries      TimeEntry[]
+  leads            Lead[]
+  favorites        LawyerFavorite[]
+}
+
+model Staff {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role      String   @default("assistant")
+  office    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PracticeArea {
+  id          String   @id @default(uuid())
+  slug        String   @unique
+  title       String
+  description String
+  icon        String?
+  content     String?
+  order       Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  faqs        FAQ[]
+  articles    Article[]
+  documents   RequiredDocument[]
+}
+
+model Case {
+  id            String       @id @default(uuid())
+  caseNumber    String       @unique
+  title         String
+  description   String?
+  type          String?
+  status        String       @default("INTAKE")
+  stage         String       @default("Consultation Completed")
+  court         String?
+  opponent      String?
+  matterType    String?
+  budget        Float?
+  priority      String       @default("normal")
+  clientId      String
+  client        Client       @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  lawyerId      String
+  lawyer        Lawyer       @relation(fields: [lawyerId], references: [id])
+  documents     Document[]
+  appointments  Appointment[]
+  timeEntries   TimeEntry[]
+  invoices      Invoice[]
+  tasks         Task[]
+  notes         Note[]
+  hearings      Hearing[]
+  milestones    Milestone[]
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+}
+
+model Milestone {
+  id          String   @id @default(uuid())
+  caseId      String
+  case        Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  title       String
+  description String?
+  order       Int
+  isCompleted Boolean  @default(false)
+  completedAt DateTime?
+  createdAt   DateTime @default(now())
+}
+
+model Hearing {
+  id        String   @id @default(uuid())
+  caseId    String
+  case      Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  title     String
+  date      DateTime
+  location  String?
+  notes     String?
+  status    String   @default("scheduled")
+  createdAt DateTime @default(now())
+}
+
+model Task {
+  id          String   @id @default(uuid())
+  caseId      String
+  case        Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  title       String
+  description String?
+  assignedTo  String?
+  dueDate     DateTime?
+  priority    String   @default("normal")
+  status      String   @default("pending")
+  createdAt   DateTime @default(now())
+}
+
+model Note {
+  id        String   @id @default(uuid())
+  caseId    String
+  case      Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  content   String
+  author    String?
+  createdAt DateTime @default(now())
+}
+
+model Document {
+  id          String   @id @default(uuid())
+  caseId      String?
+  case        Case?    @relation(fields: [caseId], references: [id], onDelete: SetNull)
+  clientId    String
+  client      Client   @relation(fields: [clientId], references: [id])
+  name        String
+  type        String
+  size        Int
+  url         String
+  category    String   @default("general")
+  isVerified  Boolean  @default(false)
+  ocrText     String?
+  uploadedAt  DateTime @default(now())
+  createdAt   DateTime @default(now())
+}
+
+model Appointment {
+  id           String   @id @default(uuid())
+  clientId     String
+  client       Client   @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  lawyerId     String
+  lawyer       Lawyer   @relation(fields: [lawyerId], references: [id])
+  caseId       String?
+  case         Case?    @relation(fields: [caseId], references: [id])
+  title        String
+  description  String?
+  date         DateTime
+  duration     Int      @default(60)
+  status       String   @default("PENDING")
+  meetingUrl   String?
+  meetingType  String   @default("in-person")
+  reminderSent Boolean  @default(false)
+  createdAt    DateTime @default(now())
+}
+
+model Invoice {
+  id          String   @id @default(uuid())
+  invoiceNo   String   @unique
+  clientId    String
+  client      Client   @relation(fields: [clientId], references: [id])
+  caseId      String?
+  case        Case?    @relation(fields: [caseId], references: [id])
+  amount      Float
+  tax         Float    @default(0)
+  total       Float
+  status      String   @default("DRAFT")
+  dueDate     DateTime?
+  paidAt      DateTime?
+  description String?
+  items       String   @default("[]")
+  createdAt   DateTime @default(now())
+  payments    Payment[]
+}
+
+model Payment {
+  id            String   @id @default(uuid())
+  invoiceId     String
+  invoice       Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  clientId      String
+  client        Client   @relation(fields: [clientId], references: [id])
+  amount        Float
+  method        String
+  transactionId String?
+  status        String   @default("completed")
+  createdAt     DateTime @default(now())
+}
+
+model TimeEntry {
+  id          String   @id @default(uuid())
+  lawyerId    String
+  lawyer      Lawyer   @relation(fields: [lawyerId], references: [id], onDelete: Cascade)
+  caseId      String?
+  case        Case?    @relation(fields: [caseId], references: [id])
+  title       String
+  hours       Float
+  rate        Float
+  billable    Boolean  @default(true)
+  date        DateTime
+  description String?
+  createdAt   DateTime @default(now())
+}
+
+model Lead {
+  id        String   @id @default(uuid())
+  lawyerId  String
+  lawyer    Lawyer   @relation(fields: [lawyerId], references: [id], onDelete: Cascade)
+  name      String
+  email     String?
+  phone     String?
+  source    String?
+  status    String   @default("new")
+  notes     String?
+  createdAt DateTime @default(now())
+}
+
+model BlogPost {
+  id        String   @id @default(uuid())
+  slug      String   @unique
+  title     String
+  excerpt   String?
+  content   String
+  author    String?
+  category  String?
+  tags      String   @default("[]")
+  image     String?
+  published Boolean  @default(false)
+  views     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model FAQ {
+  id             String       @id @default(uuid())
+  question       String
+  answer         String
+  category       String?
+  practiceAreaId String?
+  practiceArea   PracticeArea? @relation(fields: [practiceAreaId], references: [id])
+  order          Int          @default(0)
+  isPublished    Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+}
+
+model Article {
+  id             String       @id @default(uuid())
+  title          String
+  content        String
+  practiceAreaId String?
+  practiceArea   PracticeArea? @relation(fields: [practiceAreaId], references: [id])
+  author         String?
+  published      Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+}
+
+model RequiredDocument {
+  id             String       @id @default(uuid())
+  name           String
+  practiceAreaId String?
+  practiceArea   PracticeArea? @relation(fields: [practiceAreaId], references: [id])
+  createdAt      DateTime     @default(now())
+}
+
+model Review {
+  id         String   @id @default(uuid())
+  clientId   String
+  client     Client   @relation(fields: [clientId], references: [id])
+  lawyerId   String?
+  lawyer     Lawyer?  @relation(fields: [lawyerId], references: [id])
+  rating     Int
+  comment    String?
+  isVerified Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model Feedback {
+  id        String   @id @default(uuid())
+  clientId  String
+  client    Client   @relation(fields: [clientId], references: [id])
+  type      String
+  message   String
+  rating    Int?
+  createdAt DateTime @default(now())
+}
+
+model Message {
+  id         String   @id @default(uuid())
+  senderId   String
+  sender     User     @relation("sender", fields: [senderId], references: [id])
+  receiverId String
+  receiver   User     @relation("receiver", fields: [receiverId], references: [id])
+  caseId     String?
+  content    String
+  attachment String?
+  read       Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  message   String
+  type      String   @default("info")
+  link      String?
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model LawyerFavorite {
+  id        String @id @default(uuid())
+  clientId  String
+  client    Client @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  lawyerId  String
+  lawyer    Lawyer @relation(fields: [lawyerId], references: [id], onDelete: Cascade)
+  @@unique([clientId, lawyerId])
+}
+
+model Referral {
+  id            String   @id @default(uuid())
+  clientId      String
+  client        Client   @relation(fields: [clientId], references: [id])
+  referredName  String
+  referredEmail String?
+  referredPhone String?
+  status        String   @default("pending")
+  reward        Float?
+  createdAt     DateTime @default(now())
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  action    String
+  resource  String
+  details   String?
+  ip        String?
+  createdAt DateTime @default(now())
+}
+
+model DocumentTemplate {
+  id           String   @id @default(uuid())
+  name         String
+  category     String
+  content      String
+  placeholders String   @default("[]")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model KnowledgeBase {
+  id        String   @id @default(uuid())
+  title     String
+  content   String
+  category  String
+  tags      String   @default("[]")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model AISession {
+  id        String   @id @default(uuid())
+  userId    String
+  type      String
+  messages  String   @default("[]")
+  summary   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ESignature {
+  id            String   @id @default(uuid())
+  documentId    String
+  signerName    String
+  signerEmail   String
+  status        String   @default("pending")
+  signedAt      DateTime?
+  signatureData String?
+  auditTrail    String   @default("[]")
+  createdAt     DateTime @default(now())
+}
+
+model Office {
+  id       String @id @default(uuid())
+  name     String
+  address  String
+  city     String
+  state    String
+  zipCode  String?
+  phone    String?
+  email    String?
+  lat      Float?
+  lng      Float?
+  isActive Boolean @default(true)
+}

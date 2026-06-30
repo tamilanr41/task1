@@ -1,0 +1,1817 @@
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ src\app\page.tsx (346:12) @ PracticeAreasMarquee
+ ⨯ ReferenceError: PracticeAreasMarquee is not defined
+    at HomePage (./src/app/page.tsx:1121:101)
+digest: "521547964"
+[0m [90m 344 |[39m           [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m[0m
+[0m [90m 345 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 346 |[39m           [33m<[39m[33mPracticeAreasMarquee[39m items[33m=[39m{practiceAreasList} [33m/[39m[33m>[39m[0m
+[0m [90m     |[39m            [31m[1m^[22m[39m[0m
+[0m [90m 347 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 348 |[39m       [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 349 |[39m[0m
+ ⨯ ./src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/home/PracticeAreasShowcase'
+[0m [90m  9 |[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m[0m
+[0m [90m 10 |[39m [36mimport[39m { [33mButton[39m[33m,[39m [33mCard[39m[33m,[39m [33mCardContent[39m[33m,[39m [33mBadge[39m } [36mfrom[39m [32m'@/components/ui'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mPracticeAreasShowcase[39m [36mfrom[39m [32m'@/components/home/PracticeAreasShowcase'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m [36mimport[39m [33mLawyerShowcase[39m [36mfrom[39m [32m'@/components/home/LawyerShowcase'[39m[33m;[39m[0m
+[0m [90m 13 |[39m [36mimport[39m [33mTestimonialSlider[39m [36mfrom[39m [32m'@/components/home/TestimonialSlider'[39m[33m;[39m[0m
+[0m [90m 14 |[39m [36mimport[39m [33mFloatingStats[39m [36mfrom[39m [32m'@/components/home/FloatingStats'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/home/PracticeAreasShowcase'
+[0m [90m  9 |[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m[0m
+[0m [90m 10 |[39m [36mimport[39m { [33mButton[39m[33m,[39m [33mCard[39m[33m,[39m [33mCardContent[39m[33m,[39m [33mBadge[39m } [36mfrom[39m [32m'@/components/ui'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mPracticeAreasShowcase[39m [36mfrom[39m [32m'@/components/home/PracticeAreasShowcase'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m [36mimport[39m [33mLawyerShowcase[39m [36mfrom[39m [32m'@/components/home/LawyerShowcase'[39m[33m;[39m[0m
+[0m [90m 13 |[39m [36mimport[39m [33mTestimonialSlider[39m [36mfrom[39m [32m'@/components/home/TestimonialSlider'[39m[33m;[39m[0m
+[0m [90m 14 |[39m [36mimport[39m [33mFloatingStats[39m [36mfrom[39m [32m'@/components/home/FloatingStats'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/page.tsx:11:1
+Module not found: Can't resolve '@/components/home/PracticeAreasShowcase'
+[0m [90m  9 |[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m[0m
+[0m [90m 10 |[39m [36mimport[39m { [33mButton[39m[33m,[39m [33mCard[39m[33m,[39m [33mCardContent[39m[33m,[39m [33mBadge[39m } [36mfrom[39m [32m'@/components/ui'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mPracticeAreasShowcase[39m [36mfrom[39m [32m'@/components/home/PracticeAreasShowcase'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m [36mimport[39m [33mLawyerShowcase[39m [36mfrom[39m [32m'@/components/home/LawyerShowcase'[39m[33m;[39m[0m
+[0m [90m 13 |[39m [36mimport[39m [33mTestimonialSlider[39m [36mfrom[39m [32m'@/components/home/TestimonialSlider'[39m[33m;[39m[0m
+[0m [90m 14 |[39m [36mimport[39m [33mFloatingStats[39m [36mfrom[39m [32m'@/components/home/FloatingStats'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/page.tsx:12:1
+Module not found: Can't resolve '@/components/home/LawyerShowcase'
+[0m [90m 10 |[39m [36mimport[39m { [33mButton[39m[33m,[39m [33mCard[39m[33m,[39m [33mCardContent[39m[33m,[39m [33mBadge[39m } [36mfrom[39m [32m'@/components/ui'[39m[33m;[39m[0m
+[0m [90m 11 |[39m [36mimport[39m [33mPracticeAreasShowcase[39m [36mfrom[39m [32m'@/components/home/PracticeAreasShowcase'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mLawyerShowcase[39m [36mfrom[39m [32m'@/components/home/LawyerShowcase'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m [36mimport[39m [33mTestimonialSlider[39m [36mfrom[39m [32m'@/components/home/TestimonialSlider'[39m[33m;[39m[0m
+[0m [90m 14 |[39m [36mimport[39m [33mFloatingStats[39m [36mfrom[39m [32m'@/components/home/FloatingStats'[39m[33m;[39m[0m
+[0m [90m 15 |[39m [36mimport[39m { siteConfig[33m,[39m lawyersData[33m,[39m testimonials[33m,[39m caseResults[33m,[39m practiceAreasList } [36mfrom[39m [32m'@/lib/data'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/page.tsx:13:1
+Module not found: Can't resolve '@/components/home/TestimonialSlider'
+[0m [90m 11 |[39m [36mimport[39m [33mPracticeAreasShowcase[39m [36mfrom[39m [32m'@/components/home/PracticeAreasShowcase'[39m[33m;[39m[0m
+[0m [90m 12 |[39m [36mimport[39m [33mLawyerShowcase[39m [36mfrom[39m [32m'@/components/home/LawyerShowcase'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 13 |[39m [36mimport[39m [33mTestimonialSlider[39m [36mfrom[39m [32m'@/components/home/TestimonialSlider'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 14 |[39m [36mimport[39m [33mFloatingStats[39m [36mfrom[39m [32m'@/components/home/FloatingStats'[39m[33m;[39m[0m
+[0m [90m 15 |[39m [36mimport[39m { siteConfig[33m,[39m lawyersData[33m,[39m testimonials[33m,[39m caseResults[33m,[39m practiceAreasList } [36mfrom[39m [32m'@/lib/data'[39m[33m;[39m[0m
+[0m [90m 16 |[39m [36mimport[39m { motion[33m,[39m [33mAnimatePresence[39m } [36mfrom[39m [32m'framer-motion'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ src\app\page.tsx (346:12) @ PracticeAreasShowcase
+ ⨯ ReferenceError: PracticeAreasShowcase is not defined
+    at HomePage (./src/app/page.tsx:1125:101)
+digest: "1121228024"
+[0m [90m 344 |[39m           [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m[0m
+[0m [90m 345 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 346 |[39m           [33m<[39m[33mPracticeAreasShowcase[39m items[33m=[39m{practiceAreasList} [33m/[39m[33m>[39m[0m
+[0m [90m     |[39m            [31m[1m^[22m[39m[0m
+[0m [90m 347 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 348 |[39m       [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 349 |[39m[0m
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\app\lawyers\page.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\app\\lawyers\\page.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\app\lawyers\page.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\app\\lawyers\\page.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\app\lawyers\page.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\app\\lawyers\\page.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\app\lawyers\page.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\app\\lawyers\\page.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\app\lawyers\page.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\app\\lawyers\\page.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\TAMILAN\TASK1\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⨯ Error: Cannot find module './1682.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\pages\_document.js:1:340
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\pages\_document.js:1:383)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\page.js:1:53327
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\page.js:1:53400)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './1682.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\pages\_document.js:1:340
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\pages\_document.js:1:383)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+[Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\5.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\TAMILAN\\TASK1\\.next\\cache\\webpack\\server-development\\5.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\5.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\TAMILAN\\TASK1\\.next\\cache\\webpack\\server-development\\5.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\5.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\TAMILAN\\TASK1\\.next\\cache\\webpack\\server-development\\5.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\7.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\TAMILAN\\TASK1\\.next\\cache\\webpack\\server-development\\7.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\7.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\TAMILAN\\TASK1\\.next\\cache\\webpack\\server-development\\7.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\7.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\TAMILAN\\TASK1\\.next\\cache\\webpack\\server-development\\7.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'D:\TAMILAN\TASK1\.next\cache\webpack\server-development\5.pack.gz'
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\page.js:1:53327
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\page.js:1:53400)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './1682.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\pages\_document.js:1:340
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\pages\_document.js:1:383)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './9276.js'
+Require stack:
+- D:\TAMILAN\TASK1\.next\server\webpack-runtime.js
+- D:\TAMILAN\TASK1\.next\server\pages\_document.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\build\utils.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js
+- D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1430:15)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:198:28)
+    at D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\TAMILAN\TASK1\.next\server\webpack-runtime.js:162:22)
+    at D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2630
+    at Object.<anonymous> (D:\TAMILAN\TASK1\.next\server\app\_not-found\page.js:1:2683)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1527:12)
+    at mod.require (D:\TAMILAN\TASK1\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (D:\TAMILAN\TASK1\node_modules\next\dist\server\require.js:109:84)
+    at D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\TAMILAN\TASK1\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\TAMILAN\TASK1\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\TAMILAN\\TASK1\\.next\\server\\webpack-runtime.js',
+    'D:\\TAMILAN\\TASK1\\.next\\server\\pages\\_document.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\TAMILAN\\TASK1\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
