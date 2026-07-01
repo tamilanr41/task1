@@ -63,7 +63,7 @@ export default function TestimonialSlider({ items }: { items: Testimonial[] }) {
           return (
             <motion.div
               key={`${t.id}-${idx}`}
-              className="group relative w-[380px] sm:w-[420px] bg-white rounded-2xl border border-surface-200/80 p-6 shrink-0 shadow-soft hover:shadow-elevated transition-all duration-500"
+              className="group relative w-[85vw] sm:w-[380px] lg:w-[420px] bg-white rounded-2xl border border-surface-200/80 p-6 shrink-0 shadow-soft hover:shadow-elevated transition-all duration-500"
               whileHover={{ scale: 1.02, y: -4 }}
               transition={{ duration: 0.4, ease: [0.33, 1, 0.68, 1] }}
             >
