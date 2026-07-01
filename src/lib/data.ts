@@ -7,7 +7,7 @@ export const siteConfig = {
   tagline: 'Excellence in Legal Practice',
   description: 'Premier law firm offering comprehensive legal services across corporate, criminal, civil, family, and immigration law with a team of experienced attorneys.',
   phone: '+91 1800 123 4567',
-  emergencyPhone: '+91 9999 888 777',
+  emergencyPhone: '+9182768591',
   whatsapp: '9182768591',
   email: 'contact@legacylegal.in',
   address: 'No. 42, Kasturba Road, MG Road, Bengaluru, Karnataka 560001',

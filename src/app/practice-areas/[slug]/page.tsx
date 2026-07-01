@@ -10,7 +10,7 @@ import {
 import {
   Button, Card, CardContent, Badge, Alert, Accordion,
 } from '@/components/ui';
-import { practiceAreasList, practiceAreaDetails, blogPosts } from '@/lib/data';
+import { practiceAreasList, practiceAreaDetails, blogPosts, siteConfig } from '@/lib/data';
 import AnimatedSection from '@/lib/animation/AnimatedSection';
 import { staggerContainer, fadeUp } from '@/lib/animation/variants';
 import { motion } from 'framer-motion';
@@ -311,7 +311,7 @@ export default function PracticeAreaDetailPage() {
                     message="Our team is available 24/7 for emergency legal assistance."
                     icon={<Calendar className="h-5 w-5" />}
                     action={
-                      <Link href="tel:+919999888777">
+                      <Link href={`tel:${siteConfig.emergencyPhone}`}>
                         <Button size="sm" variant="primary">
                           Call Emergency Hotline
                         </Button>

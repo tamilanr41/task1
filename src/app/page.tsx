@@ -199,7 +199,7 @@ export default function HomePage() {
                   >
                     {heroStats.map(({ num, label }) => (
                       <div key={label} className="text-center">
-                        <div className="text-2xl md:text-3xl font-bold text-white font-serif">
+                        <div className="text-2xl md:text-3xl font-bold text-white">
                           <CountUp end={parseInt(num)} duration={2.2} suffix={num.includes('+') ? '+' : '%'} />
                         </div>
                         <div className="text-white/60 text-xs uppercase tracking-wider mt-1">{label}</div>
@@ -415,7 +415,7 @@ export default function HomePage() {
           >
             {counterStats.map((stat) => (
               <motion.div key={stat.label} variants={fadeUp} className="text-white">
-                <div className="text-5xl md:text-6xl font-bold font-serif mb-2">
+                <div className="text-5xl md:text-6xl font-bold mb-2">
                   <CountUp end={stat.end} suffix={stat.suffix} duration={2.5} />
                 </div>
                 <p className="text-white/75 text-lg">{stat.label}</p>

@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: 'Legacy Legal Partners | Premier Law Firm',
   description: 'Comprehensive legal services across corporate, criminal, civil, family, immigration, and more. Expert attorneys, proven results.',
   keywords: 'law firm, legal services, corporate law, criminal law, divorce lawyer, property law, immigration, intellectual property',
+  icons: {
+    icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">⚖️</text></svg>',
+  },
 };
 
 export const viewport: Viewport = {
