@@ -68,7 +68,7 @@ export default function ChatWidget() {
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.92 }}
             onClick={() => setIsOpen(true)}
-            className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-accent-500 text-white rounded-full shadow-lg shadow-accent-500/30 hover:bg-accent-600 transition-colors flex items-center justify-center"
+            className="fixed bottom-20 lg:bottom-6 right-6 z-50 w-14 h-14 bg-accent-500 text-white rounded-full shadow-lg shadow-accent-500/30 hover:bg-accent-600 transition-colors flex items-center justify-center"
           >
             <MessageCircle className="w-6 h-6" />
             <motion.span
@@ -87,7 +87,7 @@ export default function ChatWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed bottom-6 right-6 z-50 w-[380px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-modal border border-gray-200/80 overflow-hidden"
+            className="fixed bottom-20 lg:bottom-6 right-6 z-50 w-[380px] max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-modal border border-gray-200/80 overflow-hidden"
           >
             <div className="bg-gradient-primary px-4 py-3.5 flex items-center justify-between">
               <div className="flex items-center gap-3">
