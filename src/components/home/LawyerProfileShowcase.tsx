@@ -6,10 +6,10 @@ import Link from 'next/link';
 import {
   Star, Award, Phone, Calendar, Mail, BadgeCheck,
   GraduationCap, Globe, Scale, TrendingUp, ArrowUpRight,
-  ChevronLeft, ChevronRight, BookOpen,
+  ChevronLeft, ChevronRight, BookOpen, MessageCircle,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { practiceAreasList } from '@/lib/data';
+import { practiceAreasList, siteConfig } from '@/lib/data';
 
 interface Lawyer {
   id: string; name: string; experience: number; bio: string;
@@ -193,6 +193,18 @@ function MainProfile({ lawyer, index }: MainProfileProps) {
               whileTap={{ scale: 0.98 }}
             >
               <Mail className="w-5 h-5" /> Email
+            </motion.button>
+          </Link>
+          <Link
+            href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(`Hi, I'm interested in consulting with ${lawyer.name}. Please share more details.`)}`}
+            target="_blank"
+          >
+            <motion.button
+              className="px-6 py-3 bg-green-500 text-white font-semibold rounded-xl hover:bg-green-600 transition-all inline-flex items-center gap-2 shadow-soft"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              <MessageCircle className="w-5 h-5" /> WhatsApp
             </motion.button>
           </Link>
         </div>

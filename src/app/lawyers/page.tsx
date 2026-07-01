@@ -3,12 +3,12 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Search, SlidersHorizontal, Star, ArrowUpDown } from 'lucide-react';
+import { Search, SlidersHorizontal, Star, ArrowUpDown, MessageCircle } from 'lucide-react';
 import {
   Button, Card, CardContent, Avatar, Badge, Input, EmptyState,
 } from '@/components/ui';
 import StarRating from '@/components/ui/stars';
-import { lawyersData, practiceAreasList } from '@/lib/data';
+import { lawyersData, practiceAreasList, siteConfig } from '@/lib/data';
 import AnimatedSection from '@/lib/animation/AnimatedSection';
 import { staggerContainer, fadeUp } from '@/lib/animation/variants';
 
@@ -151,7 +151,7 @@ export default function LawyersPage() {
                       <p className="mb-5 text-sm leading-relaxed text-surface-600 line-clamp-2">
                         {lawyer.bio}
                       </p>
-                      <div className="flex gap-3">
+                      <div className="flex gap-2">
                         <Link href={`/lawyers/${lawyer.id}`} className="flex-1">
                           <Button variant="outline" className="w-full" size="sm">
                             View Profile
@@ -161,6 +161,13 @@ export default function LawyersPage() {
                           <Button className="w-full" size="sm">
                             Book Now
                           </Button>
+                        </Link>
+                        <Link
+                          href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(`Hi, I'm interested in consulting with ${lawyer.name}. Please share more details.`)}`}
+                          target="_blank"
+                          className="inline-flex items-center justify-center rounded-lg bg-green-500 px-3 text-white hover:bg-green-600 transition-colors shrink-0"
+                        >
+                          <MessageCircle className="h-4 w-4" />
                         </Link>
                       </div>
                     </CardContent>

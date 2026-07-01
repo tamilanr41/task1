@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import { siteConfig } from '@/lib/data';
 
 const practiceAreas = [
   { label: 'Corporate Law', href: '/practice-areas/corporate-law', icon: Building2 },
@@ -192,7 +193,7 @@ export default function Footer({ className = '' }: { className?: string }) {
           </p>
           <div className="flex items-center gap-4 flex-wrap justify-center">
             <a
-              href="https://wa.me/919999888777"
+              href={`https://wa.me/${siteConfig.whatsapp}`}
               target="_blank"
               className="flex items-center gap-1.5 text-sm text-gray-400 hover:text-green-500 transition-colors group"
             >

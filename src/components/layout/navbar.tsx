@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui';
 import { cn } from '@/lib/utils';
+import { siteConfig } from '@/lib/data';
 import {
   motion, AnimatePresence, useScroll, useMotionValueEvent
 } from 'framer-motion';
@@ -192,7 +193,7 @@ export default function Navbar() {
                 <span className="font-medium">1800-123-4567</span>
               </Link>
               <Link
-                href="https://wa.me/919999888777"
+                href={`https://wa.me/${siteConfig.whatsapp}`}
                 target="_blank"
                 className="p-2 text-green-600 hover:bg-green-50 rounded-lg transition-colors"
               >
@@ -293,7 +294,7 @@ export default function Navbar() {
                   <Phone className="w-4 h-4" />
                   <span className="font-medium">1800-123-4567</span>
                 </Link>
-                <Link href="https://wa.me/919999888777" target="_blank" className="p-2 text-green-600 hover:bg-green-50 rounded-lg transition-colors">
+                <Link href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank" className="p-2 text-green-600 hover:bg-green-50 rounded-lg transition-colors">
                   <MessageCircle className="w-5 h-5" />
                 </Link>
               </div>

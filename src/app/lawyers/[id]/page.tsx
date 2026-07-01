@@ -12,7 +12,7 @@ import {
   Button, Card, CardContent, Badge, Avatar, Tabs,
 } from '@/components/ui';
 import StarRating from '@/components/ui/stars';
-import { lawyersData, practiceAreasList } from '@/lib/data';
+import { lawyersData, practiceAreasList, siteConfig } from '@/lib/data';
 import AnimatedSection from '@/lib/animation/AnimatedSection';
 import { staggerContainer, fadeUp } from '@/lib/animation/variants';
 
@@ -300,6 +300,16 @@ export default function LawyerProfilePage() {
                           <Button variant="outline" className="w-full" size="sm">
                             <Mail className="mr-1.5 h-3.5 w-3.5" />
                             Email
+                          </Button>
+                        </a>
+                        <a
+                          href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(`Hi, I'm interested in consulting with ${lawyer.name}. Please share more details.`)}`}
+                          target="_blank"
+                          className="flex-1"
+                        >
+                          <Button variant="primary" className="w-full" size="sm">
+                            <MessageCircle className="mr-1.5 h-3.5 w-3.5" />
+                            WhatsApp
                           </Button>
                         </a>
                       </div>

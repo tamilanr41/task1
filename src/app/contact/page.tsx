@@ -278,6 +278,28 @@ export default function ContactPage() {
                 </Card>
               </AnimatedSection>
 
+              <AnimatedSection variant="slideRight" delay={250}>
+                <Card variant="bordered" padding="lg" className="border-green-200 bg-green-50">
+                  <CardContent>
+                    <h3 className="mb-4 flex items-center gap-2 font-serif text-lg font-bold text-primary-500">
+                      <MessageCircle className="h-5 w-5 text-green-500" />
+                      WhatsApp
+                    </h3>
+                    <p className="mb-4 text-sm text-surface-600">
+                      Chat with us instantly on WhatsApp. Get quick answers to your legal queries.
+                    </p>
+                    <a
+                      href={`https://wa.me/${siteConfig.whatsapp}`}
+                      target="_blank"
+                      className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-green-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-green-600"
+                    >
+                      <MessageCircle className="h-4 w-4" />
+                      Chat on WhatsApp
+                    </a>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
               <AnimatedSection variant="slideRight" delay={300}>
                 <Card variant="bordered" padding="lg">
                   <CardContent>

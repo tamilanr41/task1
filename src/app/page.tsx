@@ -178,7 +178,7 @@ export default function HomePage() {
                         <Phone className="w-5 h-5" /> Call Now
                       </motion.button>
                     </Link>
-                    <Link href="https://wa.me/919999888777" target="_blank">
+                    <Link href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank">
                       <motion.button
                         className="px-7 py-3.5 border-2 border-white/30 text-white hover:bg-white/10 font-medium rounded-xl flex items-center gap-2"
                         whileHover={{ scale: 1.03 }}
