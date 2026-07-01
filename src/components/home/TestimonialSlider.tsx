@@ -50,8 +50,8 @@ export default function TestimonialSlider({ items }: { items: Testimonial[] }) {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      <div className="absolute inset-y-0 left-0 w-40 bg-gradient-to-r from-surface-50 via-surface-50/80 to-transparent z-10 pointer-events-none" />
-      <div className="absolute inset-y-0 right-0 w-40 bg-gradient-to-l from-surface-50 via-surface-50/80 to-transparent z-10 pointer-events-none" />
+      <div className="absolute inset-y-0 left-0 w-12 md:w-40 bg-gradient-to-r from-surface-50 via-surface-50/80 to-transparent z-10 pointer-events-none" />
+      <div className="absolute inset-y-0 right-0 w-12 md:w-40 bg-gradient-to-l from-surface-50 via-surface-50/80 to-transparent z-10 pointer-events-none" />
 
       <div
         ref={trackRef}
