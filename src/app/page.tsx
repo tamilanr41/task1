@@ -109,7 +109,7 @@ export default function HomePage() {
                 </HeroLine>
 
                 <HeroLine>
-                  <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-serif text-white leading-[1.1] mb-6">
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading text-white leading-[1.1] mb-6">
                     <span className="inline-block overflow-hidden">
                       <motion.span
                         className="inline-block"
@@ -461,7 +461,7 @@ export default function HomePage() {
         <div className="relative container-page text-center">
           <AnimatedSection variant="scaleIn">
             <span className="text-accent-500 font-medium text-sm uppercase tracking-[0.2em]">Get In Touch</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif text-white mb-4 mt-3">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-heading text-white mb-4 mt-3">
               Ready to Resolve Your Legal Matter?
             </h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">

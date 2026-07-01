@@ -5,17 +5,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: { 50: "#eef4ff", 100: "#d9e5ff", 200: "#bccfff", 300: "#8eadff", 400: "#5980ff", 500: "#1a365d", 600: "#14294a", 700: "#0f1e38", 800: "#0a1427", 900: "#050b17", 950: "#020612" },
-        accent: { 50: "#fcf5eb", 100: "#f8e8cc", 200: "#f0d4a0", 300: "#e8bf73", 400: "#dfa94a", 500: "#c2972d", 600: "#a37d24", 700: "#7f611c", 800: "#5c4614", 900: "#3f2f0e", 950: "#221a07" },
+        primary: { 50: "#eef5f9", 100: "#d4e6f0", 200: "#aecde1", 300: "#7db0cf", 400: "#5597bc", 500: "#37779c", 600: "#2c5f7d", 700: "#21485e", 800: "#173240", 900: "#0d1c24", 950: "#060e14" },
+        accent: { 50: "#fefcf5", 100: "#fcf4e0", 200: "#faecc2", 300: "#f6d59e", 400: "#eec87a", 500: "#d9a34a", 600: "#c08831", 700: "#9a6b24", 800: "#7a531c", 900: "#5e3f14", 950: "#33200a" },
         surface: { 50: "#f8f9fc", 100: "#f1f3f8", 200: "#e4e7f0", 300: "#cdd1e0", 400: "#a8aec8", 500: "#858cb0", 600: "#676e94", 700: "#525879", 800: "#454a63", 900: "#3c3f54", 950: "#272a3a" },
         success: { 50: "#ecfdf5", 100: "#d1fae5", 200: "#a7f3d0", 300: "#6ee7b7", 400: "#34d399", 500: "#10b981", 600: "#059669", 700: "#047857", 800: "#065f46", 900: "#064e3b" },
         warning: { 50: "#fffbeb", 100: "#fef3c7", 200: "#fde68a", 300: "#fcd34d", 400: "#fbbf24", 500: "#f59e0b", 600: "#d97706", 700: "#b45309", 800: "#92400e", 900: "#78350f" },
         danger: { 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d" },
-        dark: { 50: "#f5f5f6", 100: "#e6e6e8", 200: "#ceced2", 300: "#ababb2", 400: "#84848e", 500: "#696974", 600: "#54545e", 700: "#454550", 800: "#1e1e2e", 900: "#16162a", 950: "#0d0d1a" },
+        dark: { 50: "#f5f5f6", 100: "#e6e6e8", 200: "#ceced2", 300: "#ababb2", 400: "#84848e", 500: "#696974", 600: "#54545e", 700: "#454550", 800: "#181818", 900: "#111111", 950: "#0a0a0a" },
       },
       fontFamily: {
-        sans: ["Plus Jakarta Sans", "system-ui", "-apple-system", "sans-serif"],
-        serif: ["Bodoni Moda", "Georgia", "serif"],
+        sans: ["Inter", "system-ui", "-apple-system", "sans-serif"],
+        serif: ["Forum", "Georgia", "serif"],
+        heading: ["DM Sans", "system-ui", "sans-serif"],
         mono: ["JetBrains Mono", "Fira Code", "monospace"],
       },
       fontSize: {
@@ -44,8 +45,8 @@ const config: Config = {
         'glass': '0 8px 32px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
         'nav': '0 4px 24px rgba(0, 0, 0, 0.06)',
         'dropdown': '0 12px 48px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04)',
-        'button': '0 4px 14px rgba(26, 54, 93, 0.15)',
-        'button-accent': '0 4px 14px rgba(194, 151, 45, 0.25)',
+        'button': '0 4px 14px rgba(55, 119, 156, 0.15)',
+        'button-accent': '0 4px 14px rgba(217, 163, 74, 0.25)',
       },
       animation: {
         'slide-up': 'slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
@@ -96,9 +97,9 @@ const config: Config = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'gradient-primary': 'linear-gradient(135deg, #1a365d 0%, #14294a 50%, #0f1e38 100%)',
-        'gradient-accent': 'linear-gradient(135deg, #c2972d 0%, #a37d24 50%, #7f611c 100%)',
-        'gradient-hero': 'linear-gradient(135deg, #1a365d 0%, #0f1e38 50%, #0a1427 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #37779c 0%, #2c5f7d 50%, #21485e 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #d9a34a 0%, #c08831 50%, #9a6b24 100%)',
+        'gradient-hero': 'linear-gradient(135deg, #37779c 0%, #21485e 50%, #173240 100%)',
       },
       backdropBlur: {
         xs: '2px',
