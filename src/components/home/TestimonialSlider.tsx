@@ -56,7 +56,7 @@ export default function TestimonialSlider({ items }: { items: Testimonial[] }) {
       <div
         ref={trackRef}
         className="flex gap-6 py-4"
-        style={{ width: 'max-content', willChange: 'transform' }}
+        style={{ width: 'max-content' }}
       >
         {allItems.map((t, idx) => {
           const meta = enrich[idx % items.length];
