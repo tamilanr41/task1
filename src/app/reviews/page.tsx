@@ -77,7 +77,7 @@ export default function ReviewsPage() {
               <CardContent>
                 <div className="flex flex-col items-center gap-8 sm:flex-row">
                   <div className="text-center sm:w-48">
-                    <div className="font-serif text-6xl font-bold text-primary-500">
+                    <div className="text-6xl font-bold text-primary-500">
                       {avgRating.toFixed(1)}
                     </div>
                     <StarRating rating={Math.round(avgRating)} size={20} showValue={false} />

@@ -90,7 +90,7 @@ export default function FloatingStats() {
                 <div className="w-12 h-12 rounded-xl bg-primary-50 flex items-center justify-center mx-auto mb-4 group-hover:bg-accent-50 transition-colors duration-300">
                   <Icon className="w-6 h-6 text-primary-500 group-hover:text-accent-600 transition-colors duration-300" />
                 </div>
-                <div className="text-3xl md:text-4xl font-bold font-serif text-primary-500 mb-1">
+                <div className="text-3xl md:text-4xl font-bold text-primary-500 mb-1">
                   <CountUp end={stat.value} suffix={stat.suffix} duration={2} />
                 </div>
                 <p className="text-sm font-semibold text-surface-700">{stat.label}</p>

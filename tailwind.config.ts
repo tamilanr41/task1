@@ -14,8 +14,8 @@ const config: Config = {
         dark: { 50: "#f5f5f6", 100: "#e6e6e8", 200: "#ceced2", 300: "#ababb2", 400: "#84848e", 500: "#696974", 600: "#54545e", 700: "#454550", 800: "#1e1e2e", 900: "#16162a", 950: "#0d0d1a" },
       },
       fontFamily: {
-        sans: ["Rubik", "system-ui", "-apple-system", "sans-serif"],
-        serif: ["Oswald", "Georgia", "serif"],
+        sans: ["Plus Jakarta Sans", "system-ui", "-apple-system", "sans-serif"],
+        serif: ["Bodoni Moda", "Georgia", "serif"],
         mono: ["JetBrains Mono", "Fira Code", "monospace"],
       },
       fontSize: {
