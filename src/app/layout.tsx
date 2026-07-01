@@ -26,10 +26,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="flex flex-col min-h-screen overflow-x-hidden">
         <ProgressIndicator />
         <Navbar />
-        <main className="flex-1 pt-20 pb-16 lg:pb-0">
+        <main className="flex-1 pt-20">
           <PageTransition>{children}</PageTransition>
         </main>
-        <Footer />
+        <Footer className="mb-16 lg:mb-0" />
         <ChatWidget />
         <MobileNav />
         <Toast />

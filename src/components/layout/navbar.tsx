@@ -7,7 +7,7 @@ import {
   Plane, Calculator, Lightbulb, Rocket, ShoppingCart, ArrowRight,
   UserRound, Shield
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui';
 import { cn } from '@/lib/utils';
 import {
   motion, AnimatePresence, useScroll, useMotionValueEvent
@@ -314,3 +314,4 @@ export default function Navbar() {
     </motion.nav>
   );
 }
+

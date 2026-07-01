@@ -55,9 +55,9 @@ const itemVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } },
 };
 
-export default function Footer() {
+export default function Footer({ className = '' }: { className?: string }) {
   return (
-    <footer className="bg-dark-900 text-gray-300 relative overflow-hidden">
+    <footer className={'bg-dark-900 text-gray-300 relative overflow-hidden ' + className}>
       <div className="absolute inset-0 bg-gradient-to-b from-dark-800/50 to-dark-900 pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 relative">
         <motion.div
